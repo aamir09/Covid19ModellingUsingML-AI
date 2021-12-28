@@ -63,11 +63,11 @@ In this section we will develop ML and AI models to predict deaths in Brazil. We
 
 In this section I developed 5 models:
 
-Linear Regression Model
-Ridge Regression Model
-Lasso Regression Model
-KNN Regressor Model
-MultiLayer Perceptron Model
+1) Linear Regression Model
+2) Ridge Regression Model
+3) Lasso Regression Model
+4) KNN Regressor Model
+5) MultiLayer Perceptron Model
 
 The most effective came out to be the KNN regressor for Italy and India. henece we used it for predicting deaths based on the brazils covid-19 data.
 
