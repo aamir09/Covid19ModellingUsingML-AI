@@ -4,6 +4,9 @@ In a peaceful world where you can freely meet and greet your peopele, go out wit
 
 This project is based on the spread of this deadly virus in three countries, India, Italy and Brazil. A complete data analysis as well as modelling using machine learing is provided. The aim of this project has a hypothetical situation that if you are incharge of the Brazil's health operations, provided the future data of India and Italy, what will be the measures you would take and to build  death forecast for Brazil based on the former two countries data. The data has been adopted from Kaggle and the notebook is hosted there as well and will be available in the repository.
 
+### For more results on Italy and a detailed explanation refer to my notebook at kaggle, https://www.kaggle.com/zaikali/covid19-modelling-project
+
+
 ## India 
 India opted a stratergy of early lockdowns but the cases in India rose exponentially during covid19 form January'20 to August'21.  In this period India registered approximately 6M+ cases. 
 
