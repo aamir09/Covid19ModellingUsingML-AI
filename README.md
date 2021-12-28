@@ -7,12 +7,13 @@ This project is based on the spread of this deadly virus in three countries, Ind
 ## India 
 India opted a stratergy of early lockdowns but the cases in India rose exponentially during covid19 form January'20 to August'21.  In this period India registered approximately 6M+ cases. 
 
-![image](https://user-images.githubusercontent.com/62461730/147534320-b06919e4-dcdf-4580-a9e5-268200ff7171.png)
+![output-onlinepngtools (1)](https://user-images.githubusercontent.com/62461730/147534669-dc36852a-719f-4367-8be0-b5f9dc56368e.png)
+
 
 
 An intresting thing to note was people got cured at the same rate as the spread of disease in Inida. That doesn't explicitly mean people didn't loose their loved ones.
 
-![image](https://user-images.githubusercontent.com/62461730/147534524-fecf96ba-b044-4a4c-8af1-19438e0180ff.png)
+![output-onlinepngtools](https://user-images.githubusercontent.com/62461730/147534609-62309e07-eeb0-43c6-a8b9-b536c4731a78.png)
 
 
 
