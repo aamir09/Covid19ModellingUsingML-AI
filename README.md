@@ -54,12 +54,9 @@ The loss plot indicates no overfitting and hence we use our mlp to predict the t
 The Exploratory Data Analysis that we performed for each country led us to conclude that:
 
 1) The initial months from Jan'2020 will be key for Brazil.
-
-2)A policy that implements lockdowns, close tracking and a vaccination scheme(in the later months as we start from Jan'2020) together will be more efficient.
-
-3)As learnt from India, even with vaccination, cases went up. This could have been because there were only 1/4 fully vaccinated people out of 400 million those were vaccinated. The population let alone is 1.3B, that means 300M people are partially vaccinated and 900M have not even recieved a single dose. A vaccination scheme that is fast and have a wider coverage should be thought of.
-
-4)Also, Covishield was the major administered vaccine, which appreciates to have a 12 week gap between the 2 shots. Going forward the stratergy should be to opt for a single shot vaccine or a Vaccine that have a shorter time period for the next dose should be considered.
+2) A policy that implements lockdowns, close tracking and a vaccination scheme(in the later months as we start from Jan'2020) together will be more efficient.
+3) As learnt from India, even with vaccination, cases went up. This could have been because there were only 1/4 fully vaccinated people out of 400 million those were vaccinated. The population let alone is 1.3B, that means 300M people are partially vaccinated and 900M have not even recieved a single dose. A vaccination scheme that is fast and have a wider coverage should be thought of.
+4) Also, Covishield was the major administered vaccine, which appreciates to have a 12 week gap between the 2 shots. Going forward the stratergy should be to opt for a single shot vaccine or a Vaccine that have a shorter time period for the next dose should be considered.
 
 ## Model Developememnt to predict deaths in Brazil 
 In this section we will develop ML and AI models to predict deaths in Brazil. We will create different models for India and Italy. We will compare all the models developed for a country, the best model selected and will be used for predicting number of deaths in Brazil. We start that by tansforming datasets and taking similar features: Cured, Deaths and and Confirmed cases. We also add two new features from the existing features; Curing Rate and Mortality Rate. Curing Rate is Cured Cases by the Total number of case and likewise Mortality rate can be deduced for each day. We have three sub sections here as Indian Models, Italian Models and Predictions.
