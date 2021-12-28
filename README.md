@@ -54,8 +54,11 @@ The loss plot indicates no overfitting and hence we use our mlp to predict the t
 The Exploratory Data Analysis that we performed for each country led us to conclude that:
 
 1) The initial months from Jan'2020 will be key for Brazil.
+
 2)A policy that implements lockdowns, close tracking and a vaccination scheme(in the later months as we start from Jan'2020) together will be more efficient.
+
 3)As learnt from India, even with vaccination, cases went up. This could have been because there were only 1/4 fully vaccinated people out of 400 million those were vaccinated. The population let alone is 1.3B, that means 300M people are partially vaccinated and 900M have not even recieved a single dose. A vaccination scheme that is fast and have a wider coverage should be thought of.
+
 4)Also, Covishield was the major administered vaccine, which appreciates to have a 12 week gap between the 2 shots. Going forward the stratergy should be to opt for a single shot vaccine or a Vaccine that have a shorter time period for the next dose should be considered.
 
 ## Model Developememnt to predict deaths in Brazil 
