@@ -12,7 +12,8 @@ India opted a stratergy of early lockdowns but the cases in India rose exponenti
 
 An intresting thing to note was people got cured at the same rate as the spread of disease in Inida. That doesn't explicitly mean people didn't loose their loved ones.
 
-![image](https://user-images.githubusercontent.com/62461730/147534341-8793a6f3-c4e7-4fb9-b1d9-09b8db1629cb.png)
+![image](https://user-images.githubusercontent.com/62461730/147534524-fecf96ba-b044-4a4c-8af1-19438e0180ff.png)
+
 
 
 
