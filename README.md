@@ -16,6 +16,39 @@ An intresting thing to note was people got cured at the same rate as the spread 
 ![output-onlinepngtools](https://user-images.githubusercontent.com/62461730/147534609-62309e07-eeb0-43c6-a8b9-b536c4731a78.png)
 
 
+A proportional death rate was observed, very correlated to the cases as well as the curing rate, The death toll crossed 0.4M+ in August. The nation required something to empower the people for fighting this survival battle against covid-19 and a blessing in disguise, the vaccines rolled out. They do not ensure that you won't catch the virus again but they do ensure you fight good and the lethal virus couldn't casuse you much harm. Inida used 3 kinds of vaccines, Covishield, Coavaxin and Sputnik V from which covishield was preffered dosage for almost most of the vacccinated Indians. 
+
+![output-onlinepngtools (2)](https://user-images.githubusercontent.com/62461730/147535147-86fedab5-0fa9-42c2-bdf5-08b93890fb11.png)
+
+You can very well, observe above that the Oxford implementation was the heavily and dominantly used vaccine in India. To serve the purpose, the vaccine helped to up the rate of cured people which can be observed below:
+
+![output-onlinepngtools (3)](https://user-images.githubusercontent.com/62461730/147535314-b3f256d1-a469-4874-8966-7b2452405bfc.png)
+
+The vaccination data acoounts that the vaccinations rolled in the early January'21 and from the above you can see with time, the number of people cured got boosted. Though the cases still increased rapidly and one of the reasons being the people being partially vaccinanted. The graph below is a concisive proof for the same:
+
+![output-onlinepngtools (4)](https://user-images.githubusercontent.com/62461730/147535664-bfaa3571-a47f-4c5d-a6e6-4991039adb22.png)
+
+### Over 400M+ first does administered and not even half of them got the second jab. This flaw is a result of the two doses shall be administered 3 months apart and other miscellaneous reasons.
+
+### For more results on India and a detailed explanation refer to my notebook at kaggle, https://www.kaggle.com/zaikali/covid19-modelling-project
+
+
+## Italy 
+
+Italy, a country with rich culture and beautiful souls were no strangers to the brutal reign of covid-19. They adopted a late lockdown approach and here is a summary of their covid-19 cases tally.
+
+![output-onlinepngtools (5)](https://user-images.githubusercontent.com/62461730/147536296-56256307-9ff4-4cf3-b128-c6b8100e581a.png)
+
+A timeseries analysis was also performed for Italy which predicted the rise in cases for the next 15 days from the historical data. A multi-layer-perceptron was modelled for the timeseries analysis. 
+
+![output-onlinepngtools (6)](https://user-images.githubusercontent.com/62461730/147536566-23dd5af1-de93-43b4-8711-d3e236bc72a0.png)
+
+The loss plot indicates no overfitting and hence we use our mlp to predict the timeseries forecast which came out to be:
+
+![output-onlinepngtools (7)](https://user-images.githubusercontent.com/62461730/147536825-637cf633-1528-4efa-bd18-0f077406a7be.png)
+
+### For more results on Italy and a detailed explanation refer to my notebook at kaggle, https://www.kaggle.com/zaikali/covid19-modelling-project
+
 
 
 
