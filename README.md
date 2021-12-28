@@ -39,7 +39,7 @@ Italy, a country with rich culture and beautiful souls were no strangers to the 
 
 ![output-onlinepngtools (5)](https://user-images.githubusercontent.com/62461730/147536296-56256307-9ff4-4cf3-b128-c6b8100e581a.png)
 
-A timeseries analysis was also performed for Italy which predicted the rise in cases for the next 15 days from the historical data. A multi-layer-perceptron was modelled for the timeseries analysis. 
+A timeseries analysis was also performed for Italy which predicted the rise in cases for the next 15 days from the historical data. A multi-layer-perceptron was modelled for the timeseries analysis.  
 
 ![output-onlinepngtools (6)](https://user-images.githubusercontent.com/62461730/147536566-23dd5af1-de93-43b4-8711-d3e236bc72a0.png)
 
@@ -50,7 +50,28 @@ The loss plot indicates no overfitting and hence we use our mlp to predict the t
 ### For more results on Italy and a detailed explanation refer to my notebook at kaggle, https://www.kaggle.com/zaikali/covid19-modelling-project
 
 
+## Learnings for Brazil 
+The Exploratory Data Analysis that we performed for each country led us to conclude that:
 
+1) The initial months from Jan'2020 will be key for Brazil.
+2)A policy that implements lockdowns, close tracking and a vaccination scheme(in the later months as we start from Jan'2020) together will be more efficient.
+3)As learnt from India, even with vaccination, cases went up. This could have been because there were only 1/4 fully vaccinated people out of 400 million those were vaccinated. The population let alone is 1.3B, that means 300M people are partially vaccinated and 900M have not even recieved a single dose. A vaccination scheme that is fast and have a wider coverage should be thought of.
+4)Also, Covishield was the major administered vaccine, which appreciates to have a 12 week gap between the 2 shots. Going forward the stratergy should be to opt for a single shot vaccine or a Vaccine that have a shorter time period for the next dose should be considered.
+
+## Model Developememnt to predict deaths in Brazil 
+In this section we will develop ML and AI models to predict deaths in Brazil. We will create different models for India and Italy. We will compare all the models developed for a country, the best model selected and will be used for predicting number of deaths in Brazil. We start that by tansforming datasets and taking similar features: Cured, Deaths and and Confirmed cases. We also add two new features from the existing features; Curing Rate and Mortality Rate. Curing Rate is Cured Cases by the Total number of case and likewise Mortality rate can be deduced for each day. We have three sub sections here as Indian Models, Italian Models and Predictions.
+
+In this section I developed 5 models:
+
+Linear Regression Model
+Ridge Regression Model
+Lasso Regression Model
+KNN Regressor Model
+MultiLayer Perceptron Model
+
+The most effective came out to be the KNN regressor for Italy and India. henece we used it for predicting deaths based on the brazils covid-19 data.
+
+![image](https://user-images.githubusercontent.com/62461730/147537773-e786b624-5445-4880-a9bd-aad6947858e3.png)
 
 
 
